@@ -1,3 +1,7 @@
+* {
+  transition: all 0.2s ease-in-out;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -37,7 +41,6 @@ nav {
   background-color: #00bcd4;
   color: #1e1e1e;
 }
-
 
 .hero {
   height: 100vh;
@@ -110,7 +113,7 @@ nav {
 
 /* Hover-effekt */
 .dropdown-menu li a:hover {
-  background-color: #333;
+  background-color: #d5cbcb;
 }
 
 /* Vis menyen når musen er over */
@@ -118,7 +121,7 @@ nav {
   display: block;
 }
 
-/* ✅ Viktig: Gjør alle bilder responsive */
+/* Viktig: Gjør alle bilder responsive */
 img {
   max-width: 100%;
   height: auto;
