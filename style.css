@@ -181,6 +181,41 @@ img {
   color: #80deea;
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.terminal {
+  background-color: #0d0d0d;
+  color: #00ff66;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1px 24px;
+  border-radius: 10px;
+  max-width: 420px;
+  margin: 15px auto 10px; /* 💡 mindre luft over og under */
+  box-shadow: 0 0 15px rgba(0, 255, 100, 0.3);
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+
+.terminal .prompt {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.prompt {
+  animation: blink 1s step-start infinite;
+}
+
+
+
+
 
 
 
