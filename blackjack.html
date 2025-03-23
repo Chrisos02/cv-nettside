@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="blackjack.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🂡 Blackjack</h1>
+
+    <div class="game-area">
+      <div class="section">
+        <h2>Dealer</h2>
+        <div id="dealer-cards" class="cards">
+          <img id="hidden" src="cards/BACK.png" alt="Skjult kort" />
+        </div>
+        <p>Sum: <span id="dealer-sum">?</span></p>
+      </div>
+
+      <div class="section">
+        <h2>Deg</h2>
+        <div id="your-cards" class="cards"></div>
+        <p>Sum: <span id="your-sum">0</span></p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="hit">Hit</button>
+      <button id="stay">Stay</button>
+      <button id="restart">Restart</button>
+    </div>
+
+    <h2 id="results"></h2>
+  </div>
+
+  <script src="blackjack.js"></script>
+
+  <div id="rules-box">
+    <h3>📋 Blackjack Regler</h3>
+    <ul>
+      <li>Målet er å få 21 poeng eller nærmest mulig uten å gå over</li>
+      <li>Ess (A) teller som 1 eller 11</li>
+      <li>Bildekort (J, Q, K) teller som 10</li>
+      <li>Dealeren må trekke til minst 17</li>
+      <li>Hvis du går over 21 → BUSTED!</li>
+      <li>21 med to kort = Blackjack</li>
+    </ul>
+  </div>
+  
+</body>
+</html>
+
+

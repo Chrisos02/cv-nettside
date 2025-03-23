@@ -1,0 +1,99 @@
+body {
+    background-color: #2e2e2e;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  .game-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .section {
+    flex: 1 1 45%;
+    background: #444;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .cards img {
+    width: 80px;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00bcd4;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0197aa;
+  }
+
+  #rules-box {
+    position: fixed;
+    top: 100px;
+    right: 190px;
+    width: 337px; /* 250 * 1.35 */
+    background-color: #333;
+    color: #fff;
+    padding: 20px; /* litt mer padding */
+    border-radius: 12px;
+    font-size: 18.9px; /* 14 * 1.35 */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
+  }
+  
+  #rules-box h3 {
+    margin-top: 0;
+    font-size: 21.6px; /* 16 * 1.35 */
+    color: #00bcd4;
+  }
+  
+  #rules-box ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 12px 0 0 0;
+  }
+  
+  #rules-box li {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
