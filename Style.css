@@ -39,7 +39,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 60px; /* for å ikke bli skjult bak navbar */
+  padding-top: 100px; /* for å ikke bli skjult bak navbar */
   box-sizing: border-box;
 }
 
