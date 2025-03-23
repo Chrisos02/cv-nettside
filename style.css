@@ -1,16 +1,17 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #3e3737;
+  background-color: #ebe6e6;
 }
 
 nav {
   background-color: #1e1e1e;
-  padding: 15px 0;
+  padding: 20px 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .navbar {
@@ -19,19 +20,24 @@ nav {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
 }
 
 .navbar li a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar li a:hover {
-  color: #00bcd4;
+  background-color: #00bcd4;
+  color: #1e1e1e;
 }
+
 
 .hero {
   height: 100vh;
