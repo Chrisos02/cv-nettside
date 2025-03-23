@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="no">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chris Osmundsen – CV</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chris Osmundsen | Cybersikkerhet & Etisk hacking</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   </head>
+
+  <section id="kontakt" class="kontakt">
+    <h2>📩 Kontakt meg</h2>
+    <p>📧 <a href="mailto:chris@example.com">chris@example.com</a></p>
+    <p>📄 <a href="cv.pdf" download>Last ned CV (PDF)</a></p>
+  </section>
+  
+  <button id="darkModeToggle">🌙 Bytt tema</button>
+  
+  <script>
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+  
   
 <body>
   <nav>
